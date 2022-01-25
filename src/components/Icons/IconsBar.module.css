@@ -1,0 +1,48 @@
+.options {
+  display: flex;
+  align-items: center;
+  color: grey;
+  margin-top: 25px;
+}
+
+.options a,
+.optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.optionsRight,
+.optionsLeft {
+  display: flex;
+}
+
+.optionsRight {
+  margin-left: 80px;
+}
+
+.resultLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.option a {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 750px) {
+  .options {
+    overflow: scroll;
+  }
+  .optionsRight {
+    display: none;
+  }
+}

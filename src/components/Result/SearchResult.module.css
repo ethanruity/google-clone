@@ -1,0 +1,42 @@
+.res {
+  margin-bottom: 20px;
+}
+
+.resLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.58;
+}
+
+.resTitle {
+  text-decoration: none;
+}
+
+.resTitle:hover {
+  text-decoration: underline;
+}
+
+.resTitle > h2 {
+  padding-top: 5px;
+  line-height: 1.3;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1a0dab;
+}
+
+.resSnippet {
+  margin-top: 3px;
+  line-height: 1.4;
+  max-width: 48em;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 750px) {
+  .res {
+    width: 90vw;
+  }
+}

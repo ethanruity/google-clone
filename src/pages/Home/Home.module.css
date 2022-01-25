@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  margin-top: 7%;
+  flex-direction: column;
+}
+
+.body > img {
+  object-fit: contain;
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .body > img {
+    object-fit: contain;
+    height: 70px;
+  }
+  .body {
+    margin-top: 100px;
+  }
+}
